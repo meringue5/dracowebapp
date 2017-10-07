@@ -1,0 +1,52 @@
+@charset "UTF-8";
+
+a.crimsonBtn {
+	box-shadow: 0.1em 0.1em 0.1em gray;
+	text-decoration:none;
+	padding:0.2em;
+/* 	margin-top:2em; */
+/* 	margin-bottom:2em; */
+	color:white;
+	background-color:crimson;
+}
+
+a.crimsonBtn:hover {
+/* 	box-shadow: 0.1em 0.1em 0.1em gray; */
+/* 	text-decoration:none; */
+/* 	background-color:crimson; */
+	color:red;
+}
+
+.shadowedBox {
+	box-shadow: 0.2em 0.1em 0.1em gray;
+	border-spacing:0.4em;
+}
+
+#boardTbl {
+	border-collapse:collapse; 
+	width: 80%;
+	margin: 2em;
+	}
+	
+#boardTbl td {
+/* 	border: solid 1px crimson; */
+	text-align:center;
+	padding:0.2em;
+	}
+	
+#boardTbl .TdTitle {
+	max-width: 100px; 
+	text-align:left;
+/* 	border: 1px solid black;  */
+	overflow: hidden; 
+	white-space: nowrap; 
+	text-overflow: ellipsis;"
+}
+
+#boardTbl .TdTitle a {
+	text-decoration:none;
+}
+
+#boardTbl .TdTitle a:hover {
+	text-decoration:underline;
+}
